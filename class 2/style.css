@@ -1,0 +1,38 @@
+
+body {
+	width: 780px;
+	margin:0 auto;
+}
+
+header img {
+	width: 100px;
+	position: relative;
+	left: 38%;
+
+}
+
+main img {
+	position: relative;
+}
+
+nav li {
+	display: inline;
+	padding-left: 60px;
+	position: relative;
+	left: 10%;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+.articles article {
+	background-color: #999;
+	float: left;
+	margin: 10px 10px 0 0 ;
+	display: inline;
+	height: 250px; 
+	width: 250px;
+
+}
