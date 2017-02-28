@@ -1,0 +1,66 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Formulario HTML5</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<main>
+			<div>
+				<form>
+					<label for="nombre">Nombre</label>
+				<input type="text" placeholder="Nombre*" id="nombre"  required>
+				<br>
+				<label for="apellido">Aprellido</label>
+				<input type="text" placeholder="Aprellido*" id="apellido" required>
+				<br>
+				<label for="email">Correo</label>
+				<input type="email" placeholder="Correo*" id="email" required>
+				<br>
+				<label for="color">Color Favorito</label>
+				<input type="color" id="color">
+				<br>
+				<label for="number">Numero de la suerte</label>
+				<input type="number" id="number" max="100" min="0">
+				<br>
+				<label for="lenguajes">Tu mejor lenguaje de programación</label>
+				<datalist id="lenguaje">
+					<option value="JS">
+					<option value="PHP">
+					<option value="Phyton">
+					<option value="">
+					<option value="">					
+				</datalist>
+				<input list="lenguaje" required>
+				<br>
+				<label for="date">Fecha de nacimiento</label>
+				<input type="date" id="date" required>
+				<br>
+				<label for="file">CV</label>
+				<br>
+
+				<input type="submit" id="submit" name="upload" accept="application/pdf" required>
+
+				</form>				
+			</div>
+
+			<div>
+				<img style="width: 200px;" src="http://vignette3.wikia.nocookie.net/althistory/images/9/9c/Provincias_de_costa_Rica.png/revision/latest?cb=20120702225331&path-prefix=es" alt="" >
+				<ol>
+					<li id=“alajuela” data-compass=“North” data-weather=“hot” data-size=“big” data-sku=“506-1”>Alajuela</li>
+					<li id=“cartago” data-compass=“center” data-weather=“cold” data-size=“smal” data-sku=“506-2”>cartago</li>
+					<li id=“guanacaste” data-compass=“North-west” data-weather=“dry” data-size=“big” data-sku=“506-3”>guanacaste</li>
+					<li id=“heredia” data-compass=“North” data-weather=“cold” data-size=“smal” data-sku=“506-1”>heredia</li>
+					<li id=“limon” data-compass=“East” data-weather=“wet” data-size=“midium” data-sku=“506-1”>limon</li>
+					<li id=“puntarenas” data-compass=“South” data-weather=“wet” data-size=“big” data-sku=“506-1”>puntarenas</li>
+					<li id=“san-jose” data-compass=“center” data-weather=“hot” data-size=“midium” data-sku=“506-1”>san-jose</li>
+				</ol>
+				
+			</div>
+
+
+		</main>
+	</body>
+</html>

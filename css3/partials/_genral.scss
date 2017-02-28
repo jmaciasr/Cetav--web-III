@@ -1,0 +1,123 @@
+body {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+.clearfix {
+	zoom: 1;
+	overflow: hidden;
+}
+
+/*Clase 5*/
+
+h4 {
+	padding-top: 30%;
+	text-align: center;
+	text-shadow: 2px 2px 2px #fff;
+}
+
+.box {
+
+	background-color: #999;
+	margin-bottom: 50px;
+	width: 200px;
+	height: 200px;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.stars {
+	border-image: url("img/border.png") 30 round; 
+	
+}
+
+.shadow {
+	box-shadow: 10px 10px 5px #666;
+}
+
+/*Clase 6*/ 
+
+.box-sizing {
+	height: 200px;
+	width: 200px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	float: left;
+	
+}
+
+@font-face {
+ font-family: VintageOne;
+ src: url(font/vintageone-webfont.woff);
+}
+
+.external-font {
+	margin-top: 15px;
+	font-size: 50px;
+	font-family: VintageOne, sans-serif;
+}
+ 
+.gradient {
+	height: 200px;
+	width: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1933c6+0,ffffff+28,ff2323+52,ff2323+52,ffffff+74,ffffff+74,1933c6+100 */
+	background: #1933c6; /* Old browsers */
+	background: -moz-linear-gradient(top, #1933c6 0%, #ffffff 28%, #ff2323 52%, #ff2323 52%, #ffffff 74%, #ffffff 74%, #1933c6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1933c6 0%,#ffffff 28%,#ff2323 52%,#ff2323 52%,#ffffff 74%,#ffffff 74%,#1933c6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1933c6 0%,#ffffff 28%,#ff2323 52%,#ff2323 52%,#ffffff 74%,#ffffff 74%,#1933c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1933c6', endColorstr='#1933c6',GradientType=0 ); /* IE6-9 */
+} 
+
+.box-transition {
+	background-color: #00819B;
+	color: #56EA00;
+	text-align: center;
+
+}
+
+.box-transition:hover {
+	background-color: #56EA00 ;
+	color: #00819B;
+}
+
+.transition {
+	transition: color 0.5s linear, background-color 0.5s linear;
+	-webkit-transition: 0.5s linear, background-color 0.5s linear;
+	-moz-transition: 0.5s linear, background-color 0.5s linear;
+	-ms-transition: 0.5s linear, background-color 0.5s linear;
+	-o-transition: 0.5s linear, background-color 0.5s linear;
+	transition: 0.5s linear, background-color 0.5s linear;
+}
+
+.transforms {
+	background-color: #999;
+	margin: 10px 0;
+	height: 200px;
+	width: 200px;
+}
+
+
+
+.t1:hover {
+	transform:translateX(50px);
+}
+
+.t2:hover {
+	transform:rotate(180deg);
+}
+
+.t3:hover {
+	transform:scale(0.2,0.2);
+}
+
+.transition-transform {
+	transition: transform 0.5s linear;
+	-webkit-transform: 0.5s linear;
+	-moz-transform: 0.5s linear;
+	-ms-transform: 0.5s linear;
+	-o-transform: 0.5s linear;
+	
+}
