@@ -98,4 +98,32 @@ h4 {
   -ms-transform: 0.5s linear;
   -o-transform: 0.5s linear; }
 
+.pepe {
+  background-color: #895169;
+  border-radius: 50%;
+  margin: 20px 10px;
+  height: 30px;
+  width: 30px;
+  float: left; }
+
+.a {
+  animation: onda 8s infinite; }
+
+.b {
+  animation: onda 8s 1s infinite; }
+
+.c {
+  animation: onda 8s 2s infinite; }
+
+@keyframes onda {
+  0% {
+    transform: scale(1);
+    background-color: black; }
+  50% {
+    transform: scale(0.5);
+    background-color: #895169; }
+  100% {
+    transform: scale(1);
+    background-color: black; } }
+
 /*# sourceMappingURL=style.css.map */
