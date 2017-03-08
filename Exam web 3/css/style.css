@@ -1,0 +1,74 @@
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../font/Montserrat-Light.otf); }
+@font-face {
+  font-family: Montserrat-semibold;
+  src: url(../font/Montserrat-SemiBold.otf); }
+@font-face {
+  font-family: beyond;
+  src: url(../font/beyond.otf); }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  color: #fff; }
+
+.float-l {
+  float: left; }
+
+.float-r {
+  float: right; }
+
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+header {
+  background-image: url("../img/picture-header.jpg");
+  height: 650px; }
+
+nav {
+  clear: both;
+  background-color: #000;
+  height: 105px;
+  opacity: 0.6; }
+  nav ul {
+    padding-left: 590px;
+    padding-top: 50px; }
+  nav li {
+    display: inline;
+    font: 16px Montserrat-Light, sans-serif;
+    list-style: none;
+    padding-left: 50px;
+    text-decoration: none;
+    z-index: 1000; }
+
+h1 {
+  font: 100px beyond;
+  padding-top: 200px;
+  text-align: center; }
+
+.logo {
+  padding: 30px, 50px; }
+
+.paquetes h2 {
+  color: #271e3f;
+  font: 30px Montserrat-semibold;
+  padding: 70px 0 55px 0;
+  text-align: center; }
+.paquetes article {
+  margin: 0 auto;
+  text-align: center; }
+
+.grid {
+  margin: 0 auto;
+  width: 1270px; }
+
+.opacity-grid {
+  width: 400px; }
+
+.grid-center {
+  padding: 0 40px; }
+
+/*# sourceMappingURL=style.css.map */
