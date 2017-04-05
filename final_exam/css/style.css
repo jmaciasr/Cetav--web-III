@@ -1,0 +1,126 @@
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../font/Montserrat-Light.otf); }
+@font-face {
+  font-family: Montserrat-Extra-Light;
+  src: url(../font/Montserrat-ExtraLight.otf); }
+header {
+  background-image: url("../img/an_01.jpg");
+  height: 850px; }
+
+h1,
+h2,
+h3,
+p,
+li {
+  color: #fff;
+  font-family: Montserrat-Light, sans-serif;
+  text-align: center; }
+
+h2 {
+  font-size: 40px;
+  font-family: Montserrat-Extra-Light sans-serif; }
+
+.article-left h2 {
+  margin: 0 0 30px 0;
+  padding-top: 332px; }
+
+.article-left p {
+  margin: 0 auto;
+  width: 250px; }
+
+.article-left img {
+  padding-left: 43%;
+  padding-bottom: 122px; }
+
+article {
+  float: left; }
+
+li {
+  font-size: 14px;
+  float: right; }
+
+nav {
+  border-bottom: 1px solid #fff; }
+
+nav li {
+  display: inline-block;
+  padding: 30px 60px 30px 0; }
+
+.quienes-somos .article-left {
+  background-color: #000;
+  width: 30.70%; }
+
+.quienes-somos .article-rigth {
+  background-image: url("../img/an_03.jpg");
+  height: 799px;
+  width: 69.3%; }
+
+.el-menu {
+  background-image: url("../img/an_04.jpg");
+  height: 905px; }
+
+.el-menu h2 {
+  padding-top: 112px;
+  color: #000; }
+
+.el-menu p {
+  color: #000;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  width: 63%; }
+
+.el-menu img {
+  padding-left: 16%;
+  width: 65.27%; }
+
+.eventos .article-left {
+  background-image: url("../img/an_05.jpg");
+  position: relative;
+  width: 30.70%; }
+
+.eventos p {
+  padding-bottom: 90px; }
+
+.btn-invert {
+  background-color: transparent;
+  box-sizing: border-box;
+  padding: 2.98% 18.41%;
+  border: 2px solid #fff;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  bottom: 2.08%;
+  left: 24%; }
+  .btn-invert:hover {
+    background-color: #fff;
+    padding: 2.98% 18.41%;
+    border: 2px solid #fff;
+    color: gray; }
+
+.eventos .article-rigth {
+  background-image: url("../img/an_06.jpg");
+  position: relative;
+  height: 670px;
+  width: 69.3%; }
+
+.eventos .caption {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  background-color: #000;
+  height: 33.93%;
+  width: 30.56%; }
+
+.caption h2 {
+  padding: 35px 0; }
+
+/*# sourceMappingURL=style.css.map */

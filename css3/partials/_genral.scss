@@ -160,3 +160,34 @@ h4 {
 	50% { transform:scale(0.5); background-color: #895169; }	
 	100% { transform:scale(1); background-color: black ; }
 }
+
+//sprite
+
+.sprite {
+	//general 
+	display: inline-block;
+	background-image: url("img/redes.png");
+	background-repeat: none;
+	//ancho altura
+	height:  238px;
+	width: 240px;
+	color: transparent;
+	overflow: hidden;
+	text-indent: -999px;
+
+}
+
+.face {
+	background-position: 0 0;
+}
+
+.tw {
+	background-position: -825px 0;
+}
+.yt {
+	background-position: 0 -278px;
+}
+
+.pin {
+	background-position: -551px 0;
+}

@@ -125,5 +125,26 @@ h4 {
   100% {
     transform: scale(1);
     background-color: black; } }
+.sprite {
+  display: inline-block;
+  background-image: url("img/redes.png");
+  background-repeat: none;
+  height: 238px;
+  width: 240px;
+  color: transparent;
+  overflow: hidden;
+  text-indent: -999px; }
+
+.face {
+  background-position: 0 0; }
+
+.tw {
+  background-position: -825px 0; }
+
+.yt {
+  background-position: 0 -278px; }
+
+.pin {
+  background-position: -551px 0; }
 
 /*# sourceMappingURL=style.css.map */
