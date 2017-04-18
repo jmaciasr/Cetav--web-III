@@ -1,0 +1,115 @@
+* {
+  margin: 0; }
+
+body {
+  background-image: url("../img/bg.jpg"); }
+
+main {
+  background-color: #dedad3;
+  margin: 0 auto;
+  width: 1000px; }
+
+a {
+  text-decoration: none; }
+
+.title-section {
+  border-top: 4px solid #62493d;
+  border-bottom: 1px solid #62493d;
+  padding: 16px 0; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 940px; }
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #62493d; }
+
+h1 {
+  font-size: 36px;
+  padding-bottom: 30px; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 21px; }
+
+h4 {
+  font-size: 14px; }
+
+h5 {
+  font: 16px "lato", sans-serif; }
+
+h6 {
+  font-size: 16px; }
+
+p {
+  font: 16px 'Arvo', serif; }
+
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+.brand {
+  background-image: url("../img/patron-rombo.png");
+  background-color: #d0ccc6;
+  float: right;
+  width: 100%; }
+
+.brand img {
+  float: left; }
+
+.social {
+  display: inline; }
+
+.sprite {
+  display: inline-block;
+  background-image: url("../img/social-original.png");
+  color: transparent;
+  height: 32px;
+  width: 32px; }
+
+.as {
+  background-position: 0 -38px; }
+  .as:hover {
+    background-position: 0 0; }
+
+.t {
+  background-position: -43px -38px; }
+  .t:hover {
+    background-position: -43px 0; }
+
+.tw {
+  background-position: -85px -38px; }
+  .tw:hover {
+    background-position: -85px 0; }
+
+.dri {
+  background-position: -128px -38px; }
+  .dri:hover {
+    background-position: -128px 0; }
+
+.menu {
+  background-image: url("../img/decoration_menu.jpg");
+  margin-left: 30px; }
+  .menu a {
+    padding: 27px 0; }
+
+.slider {
+  text-align: center; }
+  .slider img {
+    margin-bottom: 60px; }
+
+.facture-img img {
+  padding: 15px 0; }
+.facture-img div {
+  display: inline;
+  width: 300px; }
+
+/*# sourceMappingURL=style.css.map */

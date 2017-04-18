@@ -1,0 +1,68 @@
+
+.brand {
+	background-image: url("../img/patron-rombo.png");
+	background-color: #d0ccc6;
+	float: right;
+	width: 100%;
+}
+
+.brand img {
+	float: left;
+}
+
+.social {
+	display: inline;
+}
+
+// social medi icons ///
+.sprite {
+	display: inline-block;
+	background-image: url("../img/social-original.png");
+	color: transparent;
+	height: 32px;
+	width: 32px;
+}
+
+.as {
+ 	background-position: 0 -38px;
+
+ 	&:hover{
+ 		background-position: 0 0;
+ 	}
+}
+
+.t {
+	background-position: -43px -38px;
+
+	&:hover{
+ 		background-position: -43px 0;
+ 	}
+}
+
+.tw {
+	background-position: -85px -38px;
+
+	&:hover{
+ 		background-position: -85px 0;
+ 	}
+}
+
+.dri {
+	background-position: -128px -38px;
+
+	&:hover{
+ 		background-position: -128px 0;
+ 	}
+}
+
+// Nav //
+
+.menu {
+	background-image: url("../img/decoration_menu.jpg");
+	margin-left: 30px; 
+
+	a {
+		padding: 27px 0;
+	}
+
+}
